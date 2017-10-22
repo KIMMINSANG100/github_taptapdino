@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: de43c44c5d73b774ab3037c794d74883
+timeCreated: 1506402686
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BM DoHyeon OTF
+  fontNames:
+  - BM DoHyeon OTF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

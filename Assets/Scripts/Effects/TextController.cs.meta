@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7c5b8246234580540a8bb35a91830b22
+timeCreated: 1500325321
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - WhiteBar: {fileID: 1026170997393590, guid: a3c720d2c45bac645bcb923080129a79, type: 2}
+  - StartText: {instanceID: 0}
+  - DefeatedText: {instanceID: 0}
+  - VictoryText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

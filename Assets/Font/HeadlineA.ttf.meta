@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cc63b85c4595ea14aa8d1f0132359164
+timeCreated: 1504968131
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HeadLineA
+  fontNames:
+  - HeadLineA
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

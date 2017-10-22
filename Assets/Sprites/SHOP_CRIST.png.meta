@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 918967b346308a04da45aac3ae725805
+timeCreated: 1499344943
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SHOP_CRIST_0
+    21300002: SHOP_CRIST_1
+    21300004: SHOP_CRIST_2
+    21300006: SHOP_CRIST_3
+    21300008: SHOP_CRIST_4
+    21300010: SHOP_CRIST_5
+    21300012: SHOP_CRIST_BACK
+    21300014: SHOP_CRIST_PANEL
+    21300016: SHOP_CRIST_8
+    21300018: SHOP_CRIST_9
+    21300020: SHOP_CRIST_16
+    21300022: SHOP_CRIST_17
+    21300024: SHOP_CRIST_18
+    21300026: SHOP_CRIST_19
+    21300028: SHOP_CRIST_20
+    21300030: SHOP_CRIST_42
+    21300032: SHOP_CRIST_43
+    21300034: SHOP_CRIST_44
+    21300036: SHOP_CRIST_45
+    21300038: SHOP_CRIST_46
+    21300040: SHOP_CRIST_47
+    21300042: SHOP_cash
+    21300044: SHOP_CRIST_49
+    21300046: SHOP_CRIST_50
+    21300048: SHOP_CRIST_51
+    21300050: SHOP_CRIST_52
+    21300052: SHOP_CRIST_53
+    21300054: SHOP_CRIST_54
+    21300056: SHOP_CRIST_55
+    21300058: SHOP_CRIST_58
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SHOP_CRIST_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1374
+        width: 1894
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_BACK
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1374
+        width: 1895
+        height: 1065
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_8
+      rect:
+        serializedVersion: 2
+        x: 4583
+        y: 1068
+        width: 353
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_20
+      rect:
+        serializedVersion: 2
+        x: 6030
+        y: 1124
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_42
+      rect:
+        serializedVersion: 2
+        x: 6031
+        y: 1057
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_43
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 405
+        width: 289
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_44
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 405
+        width: 289
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_45
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 405
+        width: 289
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_46
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 405
+        width: 290
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_47
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 405
+        width: 290
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_cash
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 405
+        width: 290
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_50
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 405
+        width: 289
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_51
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 708
+        width: 189
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_52
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 708
+        width: 231
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_53
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 683
+        width: 198
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_54
+      rect:
+        serializedVersion: 2
+        x: 4845
+        y: 692
+        width: 222
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_55
+      rect:
+        serializedVersion: 2
+        x: 5188
+        y: 691
+        width: 199
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_58
+      rect:
+        serializedVersion: 2
+        x: 6020
+        y: 1221
+        width: 250
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SHOP_CRIST_0
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 220
+        width: 225
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

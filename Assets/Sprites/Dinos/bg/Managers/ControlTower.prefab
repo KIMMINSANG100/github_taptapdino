@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1507003069268174}
+  m_IsPrefabParent: 1
+--- !u!1 &1507003069268174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719892913400880}
+  - component: {fileID: 114187064239541676}
+  - component: {fileID: 114341914226657514}
+  m_Layer: 0
+  m_Name: ControlTower
+  m_TagString: ControlTower
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719892913400880
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507003069268174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.47, y: -1.3864989, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114187064239541676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507003069268174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d510755fbc594674e9c9985d888d1edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastDay: 0
+  language: 0
+  serviceCrst: 0
+  like: 0
+  insta: 0
+  starterpack: 0
+  loaded: 0
+  totalMouseClick: 0
+  playTime: 0
+  smashed: 0
+  SceneNumber: 0
+  map: 
+  coins: 10000
+  cristals: 0
+  sumOfPowers: 0
+  bookChar: 010000000000000000000000000000000000000000000000000000000000
+  childCount: 0
+  childCount_Before: 0
+  invenNumber: 
+  thereIsMonster: 000000000000000000000000000000000000000000000000000000000000
+  dinosSpecies: 
+  dinosName: []
+  dinosLevel: 
+  dinosMaxExp: []
+  dinosTotalExp: []
+  dinosExp: []
+  totalPower: []
+  powerLevel: []
+  adrenalineLv: []
+  criticalRateLv: []
+  critPowerLv: []
+  evolutionNumb: []
+  autoLv: []
+  publicAutoLv: 0
+  eggBoxNumber: 0
+  eggSpot: 
+  eggSpecies: 
+  eggExp: []
+  EggImages:
+  - {fileID: 21300012, guid: 4f437824b9c422f43ad51354665a4e90, type: 3}
+  - {fileID: 21300006, guid: 4f437824b9c422f43ad51354665a4e90, type: 3}
+  - {fileID: 21300006, guid: 8155a1a9ddc6a4742809a419ba0726da, type: 3}
+  - {fileID: 21300010, guid: 4f437824b9c422f43ad51354665a4e90, type: 3}
+  - {fileID: 21300004, guid: 17e40b1729f1a7040a739ac0bb28933e, type: 3}
+  - {fileID: 21300010, guid: 17e40b1729f1a7040a739ac0bb28933e, type: 3}
+  - {fileID: 21300006, guid: 17e40b1729f1a7040a739ac0bb28933e, type: 3}
+  - {fileID: 21300012, guid: 8155a1a9ddc6a4742809a419ba0726da, type: 3}
+  - {fileID: 21300016, guid: 17e40b1729f1a7040a739ac0bb28933e, type: 3}
+  - {fileID: 21300014, guid: 8155a1a9ddc6a4742809a419ba0726da, type: 3}
+  - {fileID: 21300012, guid: 17e40b1729f1a7040a739ac0bb28933e, type: 3}
+  meat: 0
+  potion: 0
+  expHurb: 0
+  aura: 0
+  randomBox: 0
+  Fairy: 0
+  Crst_Battle: 0
+  Coin_Battle: 0
+  Exp_Battle: 0
+  invennumberShared: 0
+  selectedDinoNumber: 0
+  preSceneNumber: 0
+  hatched: 0
+  whatKindOfEggs: 5
+  testCristal: 10000
+  testCoin: 10000
+  battleStageLevel: 0
+  mapImg: 0
+--- !u!114 &114341914226657514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507003069268174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f69634028bd9de4b836b4ff15308a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Characters:
+  - {fileID: 1849564801178600, guid: a8637a0e2290b0444aabecaec0e86a2f, type: 2}
+  - {fileID: 1754145890412328, guid: 2c5cf00050003af409dfadf5ad5e9251, type: 2}
+  - {fileID: 1754145890412328, guid: e40ea93cb1579a94aab8a39edac85112, type: 2}
+  - {fileID: 1754145890412328, guid: e40ea93cb1579a94aab8a39edac85112, type: 2}
+  - {fileID: 0}
+  - {fileID: 1566748008021574, guid: 9030dd22442c7ac48a4326c21a9624bf, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1504562427374842, guid: b5f544411b8919d43b1ff2d4f82a3ff1, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1488769336056646, guid: 9d8e8851b90923745b9b15cd95f7c01d, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1586789902332410, guid: 0b18b3c07390915458243f8c4e75bbaf, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1729521592508618, guid: 4405b4d9a831c2f419d933ca4c715138, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  invenNumber: 0

@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: e4704d868856db845b6e95035fcd9750
+timeCreated: 1506807470
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZINO_0
+    21300002: ZINO_1
+    21300004: ZINO_2
+    21300006: ZINO_3
+    21300008: ZINO_4
+    21300010: ZINO_5
+    21300012: ZINO_6
+    21300014: ZINO_7
+    21300016: ZINO_8
+    21300018: ZINO_9
+    21300020: ZINO_10
+    21300022: ZINO_11
+    21300024: ZINO_12
+    21300026: ZINO_13
+    21300028: ZINO_14
+    21300030: ZINO_15
+    21300032: ZINO_16
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZINO_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1591
+        width: 264
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_1
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1582
+        width: 265
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_2
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1556
+        width: 289
+        height: 376
+      alignment: 9
+      pivot: {x: 0.33875737, y: -0.09088492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_3
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1542
+        width: 389
+        height: 298
+      alignment: 9
+      pivot: {x: -0.011113105, y: 0.06254957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_4
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1470
+        width: 491
+        height: 454
+      alignment: 9
+      pivot: {x: 0.43672904, y: 0.116326824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_5
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 1459
+        width: 465
+        height: 415
+      alignment: 9
+      pivot: {x: 0.39310578, y: 0.07485822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1031
+        width: 427
+        height: 395
+      alignment: 9
+      pivot: {x: 0.45634744, y: 0.12583749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 757
+        width: 477
+        height: 734
+      alignment: 9
+      pivot: {x: 0.5390768, y: 0.11004339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 730
+        width: 676
+        height: 661
+      alignment: 9
+      pivot: {x: 0.5735291, y: 0.103397064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 691
+        width: 214
+        height: 220
+      alignment: 9
+      pivot: {x: 0.84840494, y: 0.7484106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 674
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5414829, y: 0.2001683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_11
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 370
+        width: 130
+        height: 237
+      alignment: 9
+      pivot: {x: 0.6433819, y: 0.8258072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_12
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 367
+        width: 148
+        height: 165
+      alignment: 9
+      pivot: {x: 0.18514025, y: 0.77194583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_13
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 182
+        width: 477
+        height: 478
+      alignment: 9
+      pivot: {x: 0.49348754, y: 0.21447307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_14
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 42
+        width: 246
+        height: 638
+      alignment: 9
+      pivot: {x: 0.49179053, y: 0.3955879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_15
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 0
+        width: 177
+        height: 294
+      alignment: 9
+      pivot: {x: 0.7106175, y: 0.8030691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZINO_16
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 7
+        width: 194
+        height: 218
+      alignment: 9
+      pivot: {x: 0.25979835, y: 0.86928034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

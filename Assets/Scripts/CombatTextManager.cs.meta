@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a8bd0be3bffd17d4eb8edc0d9601b3f1
+timeCreated: 1499690230
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - textPrefab: {fileID: 1856174492972508, guid: 6e155981aefeb2e40b48512b0d52ecf1,
+      type: 2}
+  - canvasTransform: {instanceID: 0}
+  - camTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

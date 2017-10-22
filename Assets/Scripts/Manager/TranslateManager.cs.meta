@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c0a38852e25e5a44396d80a209b47295
+timeCreated: 1506402702
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - KoreanFont: {fileID: 12800000, guid: de43c44c5d73b774ab3037c794d74883, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

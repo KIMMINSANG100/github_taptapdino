@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 74a60550bea8828489605fc05d3eff5d
+timeCreated: 1487505194
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SD_Gothic M
+  fontNames:
+  - SD_Gothic M
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49cf4dda8f06bd0438b3c1551e4b60ff
+timeCreated: 1506458408
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - EnterSound: {fileID: 8300000, guid: 2993f3c0b07ae204ba0913565082566d, type: 3}
+  - ExitSound: {fileID: 8300000, guid: 2993f3c0b07ae204ba0913565082566d, type: 3}
+  - LevelUpSound: {fileID: 8300000, guid: 18b1b126bde5b944e9cf53eaa6d4295b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
