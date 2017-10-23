@@ -120,11 +120,17 @@ public bool thisisisisis;
 
 	float HasteAuto = 26;
 
+	float AdAuto =27;
+
 	Animator thisAnimator;
 void Start()
 { 	
+	/////////// ads 통한 오토공격
+	if(EggSpawnManager.Instances.ad10mAuto==true)
+		autoTime = 3- AdAuto*0.1f;
+	/////////
 
-	
+
 	thisAnimator = this.GetComponent<Animator>();
 	autoOnOff=true;
 	
@@ -318,6 +324,9 @@ void inputCheck()
 
 	if(this.thisAnimator.GetCurrentAnimatorStateInfo(1).IsName("Haste"))
 		autoTime = 3- HasteAuto*0.1f;
+	
+	else if(EggSpawnManager.Instances.ad10mAuto==true)
+		autoTime = 3- AdAuto*0.1f;
 
 	else
  		autoTime = 3- autoLv*0.1f;
@@ -576,6 +585,9 @@ void ShootingFire_Auto()
 if(autoOnOff==true){
 	if(this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(1).IsName("Haste"))
 		autoTime = 3- HasteAuto*0.1f;
+
+	else if(EggSpawnManager.Instances.ad10mAuto==true)
+		autoTime = 3- AdAuto*0.1f;
 
 	else
  		autoTime = 3- autoLv*0.1f;

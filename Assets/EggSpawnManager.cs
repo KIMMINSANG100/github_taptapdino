@@ -80,13 +80,15 @@ public static EggSpawnManager Instances;
 			managingAuto_adreward();
 	}
 
-	void initEventValues()
+	void initEventValues() //광고관련 초기값 설정
 	{
 		ad5mAtk2times_left = adRW_2timesStart;
-	}
+		ad10mAuto_left = 600;
+		whatAdsTake =0;
+		}
 
 
-	void managing2Times_adreward()
+	void managing2Times_adreward()// 두배공격 관리
 	{
 
 		if(ad5mAtk2times==true)
@@ -102,16 +104,17 @@ public static EggSpawnManager Instances;
 		}
 	}
 
-	void managingAuto_adreward()
+	void managingAuto_adreward() // 오토공격 관리
 	{
-
 		if(ad10mAuto==true)
 		{
+			ControlTowerScript.controlTowerScript.autoOn=true;
+
 			ad10mAuto_left-=Time.deltaTime;
 		
 			if(ad10mAuto_left<=0)
 			{
-				ad10mAuto_left=adRW_2timesStart;
+				ad10mAuto_left=adRW_2timesStart*2;
 				ad10mAuto=false;
 			}
 		
@@ -143,7 +146,9 @@ public static EggSpawnManager Instances;
 
 	public bool ad5mAtk2times;
 	public float ad5mAtk2times_left;
-[SerializeField] float adRW_2timesStart=300;
+
+	public int whatAdsTake;
+[SerializeField] float adRW_2timesStart=180;
 
 	[SerializeField]
 	GameObject randomEgg;
@@ -151,16 +156,16 @@ public static EggSpawnManager Instances;
 	{
 	
 		EggOrder++;
-		int a = UnityEngine.Random.Range(0,2);
+		int a = UnityEngine.Random.Range(0,4);
 		
-		if(a==0)
+		if(a==0 || a==1 || a==2)
 		{
 			GameObject tmp = Instantiate(randomEgg);
 			tmp.transform.position = new Vector3(0,0,0);
 			//egg instant
 		}
 
-		else if( a==1)
+		else if( a==3)
 		{
 			ControlTowerScript.controlTowerScript.cristals+=100;
 
@@ -229,6 +234,7 @@ public static EggSpawnManager Instances;
 
 
 			data.ad10mAuto 				=	ad10mAuto;
+			data.ad10mAuto_left			=	ad10mAuto_left;
 			data.ad10mAtk2times			=	ad5mAtk2times;
 			data.ad10mAtk2times_left	=	ad5mAtk2times_left;
 	
@@ -280,6 +286,7 @@ public static EggSpawnManager Instances;
 
 			
 			ad10mAuto 			= 	data.ad10mAuto;
+			ad10mAuto_left		=	data.ad10mAuto_left;
 			ad5mAtk2times		=	data.ad10mAtk2times;
 			ad5mAtk2times_left	=	data.ad10mAtk2times_left;
 		}
@@ -318,6 +325,7 @@ public class EggSpawnData
 
 
 	public bool ad10mAuto;
+	public float ad10mAuto_left;
 	public bool ad10mAtk2times;
 	public float ad10mAtk2times_left;
 	

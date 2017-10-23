@@ -563,8 +563,8 @@ MonoBehaviour:
   thisSpec: 0
   Hp_Bar:
     bar: {fileID: 114197082754584492}
-    maxHp: 80
-    currentHp: 80
+    maxHp: 120
+    currentHp: 120
   thisCoin: 80
   thisCrst: 0
   thisExp: 18

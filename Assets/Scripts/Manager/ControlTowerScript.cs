@@ -817,7 +817,10 @@ float sumOfpow=0;
 	double saveTime;
 	// Update is called once per frame
 	///////////////
-
+    private void OnApplicationQuit()
+    {
+        Save();
+    }
 
 IEnumerator COROUTINEUPDATE()
 {

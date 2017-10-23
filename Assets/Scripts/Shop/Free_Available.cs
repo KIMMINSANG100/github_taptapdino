@@ -83,6 +83,22 @@ GameObject cantuse;
 
 
 	}
+
+	
+	public void WatchAds_auto()
+	{
+		EggSpawnManager.Instances.whatAdsTake=1;
+		AdManager.Instance.ShowVideo();
+
+ 
+	}
+	public void WatchAds_2times()
+	{
+		EggSpawnManager.Instances.whatAdsTake=2;
+		AdManager.Instance.ShowVideo();
+
+
+	}
 	public void downloadOceanworld()
 	{
 

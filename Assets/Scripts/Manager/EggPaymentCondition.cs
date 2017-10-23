@@ -107,7 +107,7 @@ public class EggPaymentCondition : MonoBehaviour {
 			}
 			else
 							canBuyIt= false;	
-			break;
+			break;	
 
 
 

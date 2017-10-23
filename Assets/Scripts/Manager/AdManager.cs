@@ -236,8 +236,18 @@ public void Start()
 
 		if(ControlTowerScript.controlTowerScript.SceneNumber==7)
 		{
+			if(EggSpawnManager.Instances.whatAdsTake == 1)
+			{
+				EggSpawnManager.Instances.ad10mAuto=true;
+				EggSpawnManager.Instances.whatAdsTake=0;
+			}
 
-			// auto atk 10minute
+			else if(EggSpawnManager.Instances.whatAdsTake == 2)
+			{
+				EggSpawnManager.Instances.ad5mAtk2times=true;
+				EggSpawnManager.Instances.whatAdsTake=0;
+			}
+		// auto atk 10minute
 		}
 	}
 

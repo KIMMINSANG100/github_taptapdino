@@ -259,7 +259,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.56, y: 3.3300002}
+    oldSize: {x: 4.56, y: 3.33}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -514,8 +514,8 @@ MonoBehaviour:
   thisSpec: 0
   Hp_Bar:
     bar: {fileID: 114197082754584492}
-    maxHp: 200
-    currentHp: 200
+    maxHp: 240
+    currentHp: 240
   thisCoin: 0
   thisCrst: 0
   thisExp: 0

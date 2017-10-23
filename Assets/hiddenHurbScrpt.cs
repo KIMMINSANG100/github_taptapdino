@@ -48,6 +48,7 @@ public class hiddenHurbScrpt : MonoBehaviour {
 		 	break;
 			
 			case "dino": //
+			ControlTowerScript.controlTowerScript.dinosLevel[10]=123;
  			break;
 
 			default:
